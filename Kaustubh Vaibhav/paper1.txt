@@ -1,0 +1,201 @@
+1. Who invented Java Programming?
+a) Guido van Rossum
+b) James Gosling
+c) Dennis Ritchie
+d) Bjarne Stroustrup
+
+2. Which statement is true about Java?
+a) Java is a sequence-dependent programming language
+b) Java is a code dependent programming language
+c) Java is a platform-dependent programming language
+d) Java is a platform-independent programming languge
+
+3. Which component is used to compile, debug and execute the java programs?
+a) JRE
+b) JIT
+c) JDK
+d) JVM
+
+4. Which one of the following is not a Java feature?
+a) Object-oriented
+b) Use of pointers
+c) Portable
+d) Dynamic and Extensible
+
+5. Which of these cannot be used for a variable name in Java?
+a) identifier & keyword
+b) identifier
+c) keyword
+d) none of the mentioned
+
+6. What is the extension of java code files?
+a) .js
+b) .txt
+c) .class
+d) .java
+
+7. What will be the output of the following Java code?
+1.    class increment {
+2.        public static void main(String args[]) 
+3.        {        
+4.             int g = 3;
+5.             System.out.print(++g * 8);
+6.        } 
+7.    }
+a) 32
+b) 33
+c) 24
+d) 25
+
+8. Which environment variable is used to set the java path?
+a) MAVEN_Path
+b) JavaPATH
+c) JAVA
+d) JAVA_HOME
+
+9. What will be the output of the following Java program?
+1.class output {
+2.        public static void main(String args[]) 
+3.        {
+4.            double a, b,c;
+5.            a = 3.0/0;
+6.            b = 0/4.0;
+7.            c=0/0.0;
+8. 
+9.	    System.out.println(a);
+10.            System.out.println(b);
+11.            System.out.println(c);
+12.        } 
+13.    }
+a) NaN
+b) Infinity
+c) 0.0
+d) all of the mentioned
+
+10. Which of the following is not an OOPS concept in Java?
+a) Polymorphism
+b) Inheritance
+c) Compilation
+d) Encapsulation
+
+11. What is not the use of “this” keyword in Java?
+a) Referring to the instance variable when a local variable has the same name
+b) Passing itself to the method of the same class
+c) Passing itself to another method
+d) Calling another constructor in constructor chaining
+
+12. What will be the output of the following Java program?
+1.    class variable_scope 
+2.    {
+3.        public static void main(String args[]) 
+4.        {
+5.            int x;
+6.            x = 5;
+7.            {
+8.	        int y = 6;
+9.	        System.out.print(x + " " + y);
+10.            }
+11.            System.out.println(x + " " + y);
+12.        } 
+13.    }
+a) Compilation error
+b) Runtime error
+c) 5 6 5 6
+d) 5 6 5
+
+13. What will be the error in the following Java code?
+    byte b = 50;
+    b = b * 50;
+a) b cannot contain value 50
+b) b cannot contain value 100, limited by its range
+c) No error in this code
+d) * operator has converted b * 50 into int, which can not be converted to byte without casting
+
+14. Which of the following is a type of polymorphism in Java Programming?
+a) Multiple polymorphism
+b) Compile time polymorphism
+c) Multilevel polymorphism
+d) Execution time polymorphism
+
+15. What will be the output of the following Java program?
+1.    class leftshift_operator 
+2.    {
+3.        public static void main(String args[]) 
+4.        {        
+5.             byte x = 64;
+6.             int i;
+7.             byte y; 
+8.             i = x << 2;
+9.             y = (byte) (x << 2)
+10.             System.out.print(i + " " + y);
+11.        } 
+12.    }
+a) 0 256
+b) 0 64
+c) 256 0
+d) 64 0
+
+16. What will be the output of the following Java code?
+1.    class box 
+2.    {
+3.        int width;
+4.        int height;
+5.        int length;
+6.    } 
+7.    class main
+8.    {
+9.        public static void main(String args[]) 
+10.        {        
+11.             box obj = new box();
+12.             obj.width = 10;
+13.             obj.height = 2;
+14.             obj.length = 10;
+15.             int y = obj.width * obj.height * obj.length; 
+16.             System.out.print(y);
+17.        } 
+18.    }
+a) 100
+b) 400
+c) 200
+d) 12
+
+17. What is Truncation in Java?
+a) Floating-point value assigned to a Floating type
+b) Floating-point value assigned to an integer type
+c) Integer value assigned to floating type
+d) Integer value assigned to floating type
+View Answer
+18. What will be the output of the following Java program?
+1.    class Output 
+2.    {
+3.        public static void main(String args[])
+4.        {
+5.            int arr[] = {1, 2, 3, 4, 5};
+6.            for ( int i = 0; i < arr.length - 2; ++i)
+7.                System.out.println(arr[i] + " ");
+8.        } 
+9.    }
+a)1 2 3 4 5
+b) 1 2 3 4
+c) 1 2
+d) 1 2 3
+
+19. What will be the output of the following Java code snippet?
+1.class abc
+2.{
+3.    public static void main(String args[])
+4.    {
+5.        if(args.length>0)
+6.        System.out.println(args.length);
+7.    }
+8.}
+a) The snippet compiles and runs but does not print anything
+b) The snippet compiles, runs and prints 0
+c) The snippet compiles, runs and prints 1
+d) The snippet does not compile
+
+20. What is the extension of compiled java classes?
+a) .txt
+b) .js
+c) .class
+d) .java
